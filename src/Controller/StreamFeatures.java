@@ -49,6 +49,9 @@ public class StreamFeatures {
         System.out.println(integer);
 //        myStream.sorted(Comparator.reverseOrder()).peek(System.out::println).collect(Collectors.toList());
 
+
+        String[] arrChar = new String[10];
+        Stream<String> charStream = Arrays.stream(arrChar);
     }
 
 
